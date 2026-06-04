@@ -1,6 +1,6 @@
 # myportfolio
 <head>
-  <h1>ihere tee</h1>
+  <title>ihere tee</title>
   <link rel="stylesheet" href="style.css">
 </head>
 
