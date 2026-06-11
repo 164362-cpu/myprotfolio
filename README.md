@@ -1,5 +1,5 @@
 # <center>myportfolio</center> <br>
-<p>ชื่อ-สกุล นายณัฐรัชน์ ขันแก้วกาศ ชั้นซ ม.6/2 เลขที่ 13</p>
+<p>ชื่อ-สกุล นายณัฐรัชน์ ขันแก้วกาศ ชั้นม.6/2 เลขที่ 13</p>
 <head>
   <link rel="stylesheet" href="style.css">
   <link rel="preconnect" href="https://googleapis.com">
