@@ -1,7 +1,6 @@
 # <center>myportfolio</center> <br>
 <p>ชื่อ-สกุล นายณัฐรัชน์ ขันแก้วกาศ ชั้นซ ม.6/2 เลขที่ 13</p>
 <head>
-  <h1>ihere tee</h1>
   <link rel="stylesheet" href="style.css">
   <link rel="preconnect" href="https://googleapis.com">
   <link rel="preconnect" href="https://gstatic.com" crossorigin>
@@ -9,8 +8,8 @@
 </head>
 
 <body>
-<p>my portfolio 2026 made in somedays</p>
+<h1>ihere tee</h1>
+  <p>my portfolio 2026 made in somedays</p>
 
-  
 </body>
 
