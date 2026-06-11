@@ -5,7 +5,7 @@
 </head>
 
 <body>
-<h1 style="color:blue;">ihere tee</h1>
+<h1 style="color:blue;">This is a heading</h1>
   <p>my portfolio 2026 made in somedays</p>
 
 </body>
