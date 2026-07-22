@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>หน้าปก | Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+  <div class="nav-inner">
+    <a href="index.html" class="brand"><span>PF</span> ชื่อ-นามสกุล</a>
+    <button class="nav-toggle" id="navToggle" aria-label="เมนู">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html" class="active">01 หน้าปก</a></li>
+      <li><a href="profile.html">02 ประวัติส่วนตัว</a></li>
+      <li><a href="education.html">03 การศึกษา</a></li>
+      <li><a href="skills.html">04 ทักษะ</a></li>
+      <li><a href="activities.html">05 กิจกรรม</a></li>
+      <li><a href="awards.html">06 รางวัล</a></li>
+      <li><a href="portfolio1.html">07 ผลงาน 1</a></li>
+      <li><a href="portfolio2.html">08 ผลงาน 2</a></li>
+      <li><a href="volunteer.html">09 จิตอาสา</a></li>
+      <li><a href="goals.html">10 เป้าหมาย</a></li>
+      <li><a href="gallery.html">11 แกลเลอรี</a></li>
+      <li><a href="backcover.html">12 ปกหลัง</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- COVER -->
+<section class="cover">
+  <div class="blob" style="width:420px;height:420px;background:var(--blue-300);top:-120px;left:-140px;"></div>
+  <div class="blob" style="width:360px;height:360px;background:var(--lav-200);bottom:-100px;right:-120px;"></div>
+  <div class="blob" style="width:260px;height:260px;background:var(--mint-200);top:40%;right:5%;"></div>
+
+  <div class="cover-inner">
+    <div class="cover-avatar">
+      <!-- เปลี่ยนรูปโปรไฟล์ที่ images/profile.jpg -->
+      <img src="images/profile.jpg" alt="รูปโปรไฟล์">
+    </div>
+
+    <span class="cover-tag">🎓 Portfolio ยื่นเข้ามหาวิทยาลัย</span>
+
+    <h1>สวัสดีครับ ผมชื่อ<br><span>ชื่อ-นามสกุล</span></h1>
+    <p class="role">นักเรียนชั้นมัธยมศึกษาปีที่ 6 · สายวิทย์-คณิต<br>สมัครเข้าศึกษาต่อคณะวิศวกรรมศาสตร์ สาขาวิศวกรรมคอมพิวเตอร์</p>
+
+    <div class="cover-btns">
+      <a href="profile.html" class="btn btn-primary">เริ่มดู Portfolio →</a>
+      <a href="backcover.html" class="btn btn-outline">ติดต่อผม</a>
+    </div>
+
+    <div class="cover-index">
+      <a href="profile.html"><span class="num">02</span> ประวัติส่วนตัว</a>
+      <a href="education.html"><span class="num">03</span> การศึกษา</a>
+      <a href="skills.html"><span class="num">04</span> ทักษะ</a>
+      <a href="activities.html"><span class="num">05</span> กิจกรรม</a>
+      <a href="awards.html"><span class="num">06</span> รางวัล</a>
+      <a href="portfolio1.html"><span class="num">07</span> ผลงาน 1</a>
+      <a href="portfolio2.html"><span class="num">08</span> ผลงาน 2</a>
+      <a href="volunteer.html"><span class="num">09</span> จิตอาสา</a>
+      <a href="goals.html"><span class="num">10</span> เป้าหมาย</a>
+      <a href="gallery.html"><span class="num">11</span> แกลเลอรี</a>
+      <a href="backcover.html"><span class="num">12</span> ปกหลัง</a>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">© 2026 ชื่อ-นามสกุล · Portfolio for University Admission</footer>
+
+<script>
+  const t = document.getElementById('navToggle');
+  const l = document.getElementById('navLinks');
+  t.addEventListener('click', () => l.classList.toggle('open'));
+</script>
+</body>
+</html>

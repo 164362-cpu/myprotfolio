@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>รางวัลและเกียรติบัตร | Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="nav-inner">
+    <a href="index.html" class="brand"><span>PF</span> ชื่อ-นามสกุล</a>
+    <button class="nav-toggle" id="navToggle" aria-label="เมนู"><span></span><span></span><span></span></button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">01 หน้าปก</a></li>
+      <li><a href="profile.html">02 ประวัติส่วนตัว</a></li>
+      <li><a href="education.html">03 การศึกษา</a></li>
+      <li><a href="skills.html">04 ทักษะ</a></li>
+      <li><a href="activities.html">05 กิจกรรม</a></li>
+      <li><a href="awards.html" class="active">06 รางวัล</a></li>
+      <li><a href="portfolio1.html">07 ผลงาน 1</a></li>
+      <li><a href="portfolio2.html">08 ผลงาน 2</a></li>
+      <li><a href="volunteer.html">09 จิตอาสา</a></li>
+      <li><a href="goals.html">10 เป้าหมาย</a></li>
+      <li><a href="gallery.html">11 แกลเลอรี</a></li>
+      <li><a href="backcover.html">12 ปกหลัง</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header class="page-head">
+  <span class="page-eyebrow">06 · AWARDS</span>
+  <h1 class="page-title">รางวัลและเกียรติบัตร</h1>
+  <p class="page-sub">ผลงานที่ได้รับการยอมรับในระดับต่าง ๆ</p>
+</header>
+
+<main class="container">
+  <section class="section">
+    <div class="grid grid-3">
+      <div class="card">
+        <div class="skill-icon" style="margin:0 0 12px;">🥇</div>
+        <b>รางวัลชนะเลิศ การแข่งขันเขียนโปรแกรม</b>
+        <p style="color:var(--text-soft);margin-top:8px;font-size:.9rem;">ระดับเขตพื้นที่การศึกษา · 2567</p>
+      </div>
+      <div class="card">
+        <div class="skill-icon" style="margin:0 0 12px;">🥈</div>
+        <b>รางวัลรองชนะเลิศ โครงงานวิทยาศาสตร์</b>
+        <p style="color:var(--text-soft);margin-top:8px;font-size:.9rem;">ระดับจังหวัด · 2566</p>
+      </div>
+      <div class="card">
+        <div class="skill-icon" style="margin:0 0 12px;">📜</div>
+        <b>เกียรติบัตรนักเรียนดีเด่น</b>
+        <p style="color:var(--text-soft);margin-top:8px;font-size:.9rem;">ด้านผลการเรียนวิชาคอมพิวเตอร์ · 2566</p>
+      </div>
+      <div class="card">
+        <div class="skill-icon" style="margin:0 0 12px;">🏅</div>
+        <b>เกียรติบัตรเข้าร่วมค่ายวิทยาศาสตร์</b>
+        <p style="color:var(--text-soft);margin-top:8px;font-size:.9rem;">มหาวิทยาลัย................ · 2567</p>
+      </div>
+      <div class="card">
+        <div class="skill-icon" style="margin:0 0 12px;">🎖️</div>
+        <b>รางวัลความประพฤติดี</b>
+        <p style="color:var(--text-soft);margin-top:8px;font-size:.9rem;">โรงเรียน................ · 2565</p>
+      </div>
+      <div class="card">
+        <div class="skill-icon" style="margin:0 0 12px;">💡</div>
+        <b>รางวัลสิ่งประดิษฐ์ยอดเยี่ยม</b>
+        <p style="color:var(--text-soft);margin-top:8px;font-size:.9rem;">งานประกวดนวัตกรรมนักเรียน · 2567</p>
+      </div>
+    </div>
+  </section>
+
+  <p style="color:var(--text-soft);font-size:.85rem;margin-top:20px;">
+    * สามารถแนบรูปภาพเกียรติบัตรจริงเพิ่มเติมได้ที่หน้า
+    <a href="gallery.html" style="color:var(--accent-dark);font-weight:600;">แกลเลอรี</a>
+  </p>
+</main>
+
+<nav class="footer-nav">
+  <a href="activities.html"><span class="lbl">◀ ก่อนหน้า</span><span class="name">กิจกรรม</span></a>
+  <a href="portfolio1.html" class="nxt"><span class="lbl">ถัดไป ▶</span><span class="name">ผลงาน 1</span></a>
+</nav>
+<footer class="site-footer">© 2026 ชื่อ-นามสกุล · Portfolio for University Admission</footer>
+
+<script>
+  document.getElementById('navToggle').addEventListener('click', () =>
+    document.getElementById('navLinks').classList.toggle('open'));
+</script>
+</body>
+</html>

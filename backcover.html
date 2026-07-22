@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ปกหลัง | Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="nav-inner">
+    <a href="index.html" class="brand"><span>PF</span> ชื่อ-นามสกุล</a>
+    <button class="nav-toggle" id="navToggle" aria-label="เมนู"><span></span><span></span><span></span></button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">01 หน้าปก</a></li>
+      <li><a href="profile.html">02 ประวัติส่วนตัว</a></li>
+      <li><a href="education.html">03 การศึกษา</a></li>
+      <li><a href="skills.html">04 ทักษะ</a></li>
+      <li><a href="activities.html">05 กิจกรรม</a></li>
+      <li><a href="awards.html">06 รางวัล</a></li>
+      <li><a href="portfolio1.html">07 ผลงาน 1</a></li>
+      <li><a href="portfolio2.html">08 ผลงาน 2</a></li>
+      <li><a href="volunteer.html">09 จิตอาสา</a></li>
+      <li><a href="goals.html">10 เป้าหมาย</a></li>
+      <li><a href="gallery.html">11 แกลเลอรี</a></li>
+      <li><a href="backcover.html" class="active">12 ปกหลัง</a></li>
+    </ul>
+  </div>
+</nav>
+
+<section class="backcover">
+  <div class="blob" style="width:380px;height:380px;background:var(--lav-200);top:-100px;right:-120px;"></div>
+  <div class="blob" style="width:320px;height:320px;background:var(--mint-200);bottom:-100px;left:-100px;"></div>
+
+  <div class="backcover-inner">
+    <div class="cover-avatar" style="width:120px;height:120px;">
+      <img src="images/profile.jpg" alt="รูปโปรไฟล์">
+    </div>
+    <h2 style="margin-top:20px;">ขอบคุณที่เข้าชม<br>Portfolio ของผมครับ</h2>
+    <p style="color:var(--text-soft);margin-top:14px;">ยินดีต้อนรับทุกคำถามและข้อเสนอแนะ</p>
+
+    <div class="contact-row">
+      <span class="contact-pill">📧 example@email.com</span>
+      <span class="contact-pill">📱 08x-xxx-xxxx</span>
+      <span class="contact-pill">📷 @instagram</span>
+      <span class="contact-pill">💻 github.com/164362-cpu</span>
+    </div>
+
+    <div class="cover-btns">
+      <a href="index.html" class="btn btn-primary">↑ กลับไปหน้าปก</a>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">© 2026 ชื่อ-นามสกุล · Portfolio for University Admission</footer>
+
+<script>
+  document.getElementById('navToggle').addEventListener('click', () =>
+    document.getElementById('navLinks').classList.toggle('open'));
+</script>
+</body>
+</html>

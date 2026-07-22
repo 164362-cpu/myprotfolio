@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>เป้าหมาย | Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="nav-inner">
+    <a href="index.html" class="brand"><span>PF</span> ชื่อ-นามสกุล</a>
+    <button class="nav-toggle" id="navToggle" aria-label="เมนู"><span></span><span></span><span></span></button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">01 หน้าปก</a></li>
+      <li><a href="profile.html">02 ประวัติส่วนตัว</a></li>
+      <li><a href="education.html">03 การศึกษา</a></li>
+      <li><a href="skills.html">04 ทักษะ</a></li>
+      <li><a href="activities.html">05 กิจกรรม</a></li>
+      <li><a href="awards.html">06 รางวัล</a></li>
+      <li><a href="portfolio1.html">07 ผลงาน 1</a></li>
+      <li><a href="portfolio2.html">08 ผลงาน 2</a></li>
+      <li><a href="volunteer.html">09 จิตอาสา</a></li>
+      <li><a href="goals.html" class="active">10 เป้าหมาย</a></li>
+      <li><a href="gallery.html">11 แกลเลอรี</a></li>
+      <li><a href="backcover.html">12 ปกหลัง</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header class="page-head">
+  <span class="page-eyebrow">10 · GOALS</span>
+  <h1 class="page-title">เป้าหมายและแรงบันดาลใจ</h1>
+  <p class="page-sub">เหตุผลที่เลือกเรียนวิศวกรรมคอมพิวเตอร์ และเป้าหมายในอนาคต</p>
+</header>
+
+<main class="container">
+  <section class="section">
+    <div class="quote-box">
+      "ผมอยากใช้เทคโนโลยีที่เรียนรู้ เพื่อสร้างสิ่งที่เป็นประโยชน์ต่อสังคมและคนรอบตัว"
+    </div>
+  </section>
+
+  <section class="section">
+    <h2 class="section-title">ทำไมถึงเลือกวิศวกรรมคอมพิวเตอร์</h2>
+    <div class="card">
+      <p>อธิบายเหตุผลส่วนตัวว่าทำไมถึงสนใจสาขานี้ เช่น จุดเริ่มต้นที่ทำให้หลงใหลในการเขียนโปรแกรม
+      ประสบการณ์ที่จุดประกายความสนใจ หรือปัญหาที่อยากแก้ไขด้วยเทคโนโลยี
+      (แก้ไขข้อความส่วนนี้เป็นเรื่องราวของตัวเองได้เลยครับ)</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2 class="section-title">เป้าหมายระยะสั้น (ระหว่างเรียนมหาวิทยาลัย)</h2>
+    <div class="grid grid-2">
+      <div class="card">
+        <b>📚 พัฒนาความรู้พื้นฐาน</b>
+        <p style="color:var(--text-soft);margin-top:8px;font-size:.92rem;">ตั้งใจเรียนวิชาพื้นฐานด้านวิศวกรรมคอมพิวเตอร์ให้แน่น</p>
+      </div>
+      <div class="card">
+        <b>🚀 เข้าร่วมกิจกรรม/ชมรม</b>
+        <p style="color:var(--text-soft);margin-top:8px;font-size:.92rem;">เข้าร่วมชมรมและกิจกรรมแข่งขันด้านเทคโนโลยีในระดับมหาวิทยาลัย</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2 class="section-title">เป้าหมายระยะยาว (อนาคตการทำงาน)</h2>
+    <div class="card">
+      <p>อธิบายเป้าหมายในอนาคต เช่น อยากเป็นวิศวกรซอฟต์แวร์ นักพัฒนา AI หรืออยากสร้างธุรกิจเทคโนโลยีของตัวเอง
+      เพื่อพัฒนาสังคมและประเทศชาติต่อไป</p>
+    </div>
+  </section>
+</main>
+
+<nav class="footer-nav">
+  <a href="volunteer.html"><span class="lbl">◀ ก่อนหน้า</span><span class="name">กิจกรรมจิตอาสา</span></a>
+  <a href="gallery.html" class="nxt"><span class="lbl">ถัดไป ▶</span><span class="name">แกลเลอรีภาพกิจกรรม</span></a>
+</nav>
+<footer class="site-footer">© 2026 ชื่อ-นามสกุล · Portfolio for University Admission</footer>
+
+<script>
+  document.getElementById('navToggle').addEventListener('click', () =>
+    document.getElementById('navLinks').classList.toggle('open'));
+</script>
+</body>
+</html>

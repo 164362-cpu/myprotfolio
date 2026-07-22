@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>แกลเลอรี | Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="nav-inner">
+    <a href="index.html" class="brand"><span>PF</span> ชื่อ-นามสกุล</a>
+    <button class="nav-toggle" id="navToggle" aria-label="เมนู"><span></span><span></span><span></span></button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">01 หน้าปก</a></li>
+      <li><a href="profile.html">02 ประวัติส่วนตัว</a></li>
+      <li><a href="education.html">03 การศึกษา</a></li>
+      <li><a href="skills.html">04 ทักษะ</a></li>
+      <li><a href="activities.html">05 กิจกรรม</a></li>
+      <li><a href="awards.html">06 รางวัล</a></li>
+      <li><a href="portfolio1.html">07 ผลงาน 1</a></li>
+      <li><a href="portfolio2.html">08 ผลงาน 2</a></li>
+      <li><a href="volunteer.html">09 จิตอาสา</a></li>
+      <li><a href="goals.html">10 เป้าหมาย</a></li>
+      <li><a href="gallery.html" class="active">11 แกลเลอรี</a></li>
+      <li><a href="backcover.html">12 ปกหลัง</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header class="page-head">
+  <span class="page-eyebrow">11 · GALLERY</span>
+  <h1 class="page-title">แกลเลอรีภาพกิจกรรม</h1>
+  <p class="page-sub">ภาพประกอบกิจกรรม ผลงาน และเกียรติบัตรต่าง ๆ</p>
+</header>
+
+<main class="container">
+  <section class="section">
+    <div class="grid grid-3">
+      <div class="gallery-item"><img src="images/gallery1.jpg" alt="ภาพกิจกรรม 1"></div>
+      <div class="gallery-item"><img src="images/gallery2.jpg" alt="ภาพกิจกรรม 2"></div>
+      <div class="gallery-item"><img src="images/gallery3.jpg" alt="ภาพกิจกรรม 3"></div>
+      <div class="gallery-item"><img src="images/gallery4.jpg" alt="ภาพกิจกรรม 4"></div>
+      <div class="gallery-item"><img src="images/gallery5.jpg" alt="ภาพกิจกรรม 5"></div>
+      <div class="gallery-item"><img src="images/gallery6.jpg" alt="ภาพกิจกรรม 6"></div>
+      <div class="gallery-item"><img src="images/gallery7.jpg" alt="ภาพกิจกรรม 7"></div>
+      <div class="gallery-item"><img src="images/gallery8.jpg" alt="ภาพกิจกรรม 8"></div>
+      <div class="gallery-item"><img src="images/gallery9.jpg" alt="ภาพกิจกรรม 9"></div>
+    </div>
+  </section>
+
+  <p style="color:var(--text-soft);font-size:.85rem;margin-top:20px;">
+    * เพิ่ม/ลดจำนวนรูปได้ โดยคัดลอกโค้ด <code>.gallery-item</code> เพิ่ม แล้วเปลี่ยนชื่อไฟล์รูปใน images/
+  </p>
+</main>
+
+<nav class="footer-nav">
+  <a href="goals.html"><span class="lbl">◀ ก่อนหน้า</span><span class="name">เป้าหมายและแรงบันดาลใจ</span></a>
+  <a href="backcover.html" class="nxt"><span class="lbl">ถัดไป ▶</span><span class="name">ปกหลัง</span></a>
+</nav>
+<footer class="site-footer">© 2026 ชื่อ-นามสกุล · Portfolio for University Admission</footer>
+
+<script>
+  document.getElementById('navToggle').addEventListener('click', () =>
+    document.getElementById('navLinks').classList.toggle('open'));
+</script>
+</body>
+</html>

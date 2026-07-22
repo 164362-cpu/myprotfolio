@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>กิจกรรมจิตอาสา | Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="nav-inner">
+    <a href="index.html" class="brand"><span>PF</span> ชื่อ-นามสกุล</a>
+    <button class="nav-toggle" id="navToggle" aria-label="เมนู"><span></span><span></span><span></span></button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">01 หน้าปก</a></li>
+      <li><a href="profile.html">02 ประวัติส่วนตัว</a></li>
+      <li><a href="education.html">03 การศึกษา</a></li>
+      <li><a href="skills.html">04 ทักษะ</a></li>
+      <li><a href="activities.html">05 กิจกรรม</a></li>
+      <li><a href="awards.html">06 รางวัล</a></li>
+      <li><a href="portfolio1.html">07 ผลงาน 1</a></li>
+      <li><a href="portfolio2.html">08 ผลงาน 2</a></li>
+      <li><a href="volunteer.html" class="active">09 จิตอาสา</a></li>
+      <li><a href="goals.html">10 เป้าหมาย</a></li>
+      <li><a href="gallery.html">11 แกลเลอรี</a></li>
+      <li><a href="backcover.html">12 ปกหลัง</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header class="page-head">
+  <span class="page-eyebrow">09 · VOLUNTEER</span>
+  <h1 class="page-title">กิจกรรมจิตอาสา &amp; บำเพ็ญประโยชน์</h1>
+  <p class="page-sub">การช่วยเหลือสังคมและการทำประโยชน์เพื่อส่วนรวม</p>
+</header>
+
+<main class="container">
+  <section class="section">
+    <div class="grid grid-2">
+      <div class="card">
+        <b>🤝 สอนพิเศษคอมพิวเตอร์ให้น้อง ๆ</b>
+        <p style="color:var(--text-soft);margin-top:8px;font-size:.92rem;">
+        ร่วมเป็นอาสาสมัครสอนพื้นฐานคอมพิวเตอร์และการเขียนโปรแกรมให้แก่นักเรียนชั้นประถม</p>
+        <span class="tag">2567</span>
+      </div>
+      <div class="card">
+        <b>🌱 ค่ายอาสาพัฒนาชุมชน</b>
+        <p style="color:var(--text-soft);margin-top:8px;font-size:.92rem;">
+        เข้าร่วมกิจกรรมค่ายอาสาปรับปรุงห้องสมุดโรงเรียนในพื้นที่ห่างไกล</p>
+        <span class="tag">2566</span>
+      </div>
+      <div class="card">
+        <b>♻️ โครงการอนุรักษ์สิ่งแวดล้อม</b>
+        <p style="color:var(--text-soft);margin-top:8px;font-size:.92rem;">
+        ร่วมรณรงค์และจัดกิจกรรมคัดแยกขยะภายในโรงเรียน</p>
+        <span class="tag">2566</span>
+      </div>
+      <div class="card">
+        <b>🩸 บริจาคโลหิต / ช่วยเหลือกาชาด</b>
+        <p style="color:var(--text-soft);margin-top:8px;font-size:.92rem;">
+        เข้าร่วมเป็นอาสาสมัครในกิจกรรมรับบริจาคโลหิตของโรงเรียน</p>
+        <span class="tag">2565 - 2567</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="quote-box">
+      "การให้ที่ยิ่งใหญ่ที่สุด คือการแบ่งปันความรู้ให้กับผู้อื่น"
+    </div>
+  </section>
+</main>
+
+<nav class="footer-nav">
+  <a href="portfolio2.html"><span class="lbl">◀ ก่อนหน้า</span><span class="name">ผลงาน 2</span></a>
+  <a href="goals.html" class="nxt"><span class="lbl">ถัดไป ▶</span><span class="name">เป้าหมายในอนาคต</span></a>
+</nav>
+<footer class="site-footer">© 2026 ชื่อ-นามสกุล · Portfolio for University Admission</footer>
+
+<script>
+  document.getElementById('navToggle').addEventListener('click', () =>
+    document.getElementById('navLinks').classList.toggle('open'));
+</script>
+</body>
+</html>
